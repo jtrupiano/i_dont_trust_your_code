@@ -7,3 +7,7 @@ h2 {
   color: #64c8ca;
   font-size: 3.5em;
 }
+
+div.highlight pre code {
+  background-color: #F3F315;
+}
