@@ -1,14 +1,6 @@
 !SLIDE incremental bullets
 # RubyGems != Ruby #
 
-* .irbrc
-* RUBYOPT=rubygems
-
-!SLIDE command bullets
-# irb -f #
-
-* Do not load .irbrc on start
-
 !SLIDE commandline incremental smaller
 # The Ruby Load Path #
 
@@ -81,6 +73,7 @@
 !SLIDE incremental commandline
 # What is ubygems.rb? #
 
+    @@@ ruby
     $ cat ubygems.rb
     # This file allows for the running of rubygems with a nice
     # command line look-and-feel: ruby -rubygems foo.rb

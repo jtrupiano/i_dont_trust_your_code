@@ -1,6 +1,7 @@
 !SLIDE small
 # Gem.searcher.find(path) #
 
+    @@@ ruby
     class Gem::GemPathSearcher
       def find(path)
         @gemspecs.find do |spec| matching_file? spec, path end
@@ -20,13 +21,15 @@
 !SLIDE small
 # Gem.searcher.find(path) #
 
+    @@@ ruby
     class Gem::GemPathSearcher
 
 <div class="highlight"><pre><code>  def find(path)
     @gemspecs.find do |spec| matching_file? spec, path end
   end
 </code></pre></div>
-<pre><code> </code></pre>
+
+    @@@ ruby
  
       def init_gemspecs
         specs = Gem.source_index.map { |_, spec| spec }
@@ -42,6 +45,7 @@
 !SLIDE small
 # Gem.searcher.find(path) #
 
+    @@@ ruby
     class Gem::GemPathSearcher
       def find(path)
         @gemspecs.find do |spec| matching_file? spec, path end
@@ -50,6 +54,7 @@
 <pre><code> </code></pre>
 <div class="highlight"><pre><code>  def init_gemspecs</code></pre></div>
 
+    @@@ ruby
         specs = Gem.source_index.map { |_, spec| spec }
  
         specs.sort { |a, b|
@@ -63,6 +68,7 @@
 !SLIDE small
 # Gem.searcher.find(path) #
 
+    @@@ ruby
     class Gem::GemPathSearcher
       def find(path)
         @gemspecs.find do |spec| matching_file? spec, path end
@@ -75,6 +81,7 @@
 <div class="highlight"><pre><code>    specs.sort { |a, b|</code></pre></div>
 <div class="highlight"><pre><code>      names = a.name &lt;=> b.name</code></pre></div>
 
+    @@@ ruby
           next names if names.nonzero?
           b.version <=> a.version
         }

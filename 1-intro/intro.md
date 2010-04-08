@@ -16,6 +16,6 @@
 # What you should know #
 
 * The RubyGems environment
-* Proper structure
+* Proper gem structure
 * Release management
 * Community contributions
