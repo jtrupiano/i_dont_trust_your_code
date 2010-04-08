@@ -17,6 +17,6 @@ h2 {
   font-size: 3.5em;
 }
 
-div.highlight pre code {
+div.highlight pre code, code.highlight {
   background-color: #F3F315;
 }

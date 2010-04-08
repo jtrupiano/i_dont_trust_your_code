@@ -13,17 +13,20 @@
     /Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0
     .
     => nil
-
+    
 !SLIDE smaller
 # The Ruby Load Path #
 
 <div class="smaller">
-  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby</code></pre>
-  <div class="highlight"><pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/1.8</code></pre></div>
-  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0</code></pre>
-  <pre><code class="result">.</code></pre>
+<pre><code>$ ~/playground $&gt; irb -f
+$ irb(main):001:0&gt; puts $:
+/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8
+/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0
+/Users/john/.rubies/ruby/lib/ruby/site_ruby
+<code class="highlight">/Users/john/.rubies/ruby/lib/ruby/1.8</code>
+/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0
+.
+=&gt; nil</code></code></pre>
 </div>
 
 !SLIDE commandline incremental smaller
@@ -57,12 +60,15 @@
 # The Ruby Load Path #
 
 <div class="smaller">
-  <div class="highlight"><pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8</code></pre></div>
-  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/1.8</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0</code></pre>
-  <pre><code class="result">.</code></pre>
+<pre><code>$ ~/playground $&gt; irb -f
+$ irb(main):001:0&gt; puts $:
+<code class="highlight">/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8</code>
+/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0
+/Users/john/.rubies/ruby/lib/ruby/site_ruby
+/Users/john/.rubies/ruby/lib/ruby/1.8
+/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0
+.
+=&gt; nil</code></code></pre>
 </div>
 
 !SLIDE commandline incremental smaller
