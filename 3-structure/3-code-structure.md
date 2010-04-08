@@ -34,13 +34,3 @@
     $ irb(main):001:0> new_constants { gem 'timecop', '= 0.2.0'; require 'timecop' }
     => ["Singleton", "StackItem", "Timecop"]
 
-
-!SLIDE
-# Minimize Dependencies
-
-!SLIDE
-# Choose Your Dependencies Wisely
-
-!SLIDE
-# Fewer dependencies === Easier for others to use
-

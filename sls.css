@@ -1,3 +1,12 @@
+/* Fix the center bug for image slides */
+.slide .center {
+  height: 740px;
+  width: 1020px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 h1 {
   color: #786e6e;
   font-family: sans-serif;
