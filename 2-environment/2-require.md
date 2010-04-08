@@ -1,6 +1,9 @@
 !SLIDE
 # require 'rubygems' #
 
+!SLIDE
+# require 'rubygems' #
+
 ## Hijacks `Kernel#require`
 
 
@@ -13,7 +16,7 @@
 !SLIDE incremental commandline
 # require 'rubygems' #
 
-    $ irb(main):002:0> irb(main):002:0> require 'foo'
+    $ irb(main):002:0> require 'foo'
     LoadError: no such file to load -- foo
       from /Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8
         /rubygems/custom_require.rb:31:in `gem_original_require'
