@@ -1,6 +1,8 @@
-!SLIDE
+!SLIDE center
 # I Don't Trust Your Code #
 ## And How We Can Fix That :) ##
+### John Trupiano
+![sls_logo.png](sls_logo.png)
 
 !SLIDE bullets incremental
 # Sharing is easy #
