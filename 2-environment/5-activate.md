@@ -41,11 +41,11 @@
 # Gem activation and the load path
 
     $ irb(main):003:0> pp $:
-    ["/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8/i686-darwin9.8.0",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8/i686-darwin9.8.0",
+    ["/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8",
+     "/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0",
+     "/Users/john/.rubies/ruby/lib/ruby/site_ruby",
+     "/Users/john/.rubies/ruby/lib/ruby/1.8",
+     "/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0",
      "."]
     => nil
     
@@ -55,13 +55,13 @@
     $ irb(main):004:0> require 'timecop'
     => true
     $ irb(main):005:0> pp $:
-    ["/Users/john/.gem/ruby/1.8/gems/timecop-0.3.4/bin",
-     "/Users/john/.gem/ruby/1.8/gems/timecop-0.3.4/lib",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8/i686-darwin9.8.0",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8/i686-darwin9.8.0",
+    ["/Users/john/.rubies/ruby/lib/ruby/gems/1.8/gems/timecop-0.3.4/bin",
+     "/Users/john/.rubies/ruby/lib/ruby/gems/1.8/gems/timecop-0.3.4/lib",
+     "/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8",
+     "/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0",
+     "/Users/john/.rubies/ruby/lib/ruby/site_ruby",
+     "/Users/john/.rubies/ruby/lib/ruby/1.8",
+     "/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0",
      "."]
     => nil
     
@@ -71,13 +71,13 @@
     $ irb(main):004:0> require 'timecop'
     => true
     $ irb(main):005:0> pp $:
-<div class="highlight"><pre><code> ["/Users/john/.gem/ruby/1.8/gems/timecop-0.3.4/bin",
- "/Users/john/.gem/ruby/1.8/gems/timecop-0.3.4/lib",</pre></code></div>
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8/i686-darwin9.8.0",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8",
-     "/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8/i686-darwin9.8.0",
+<div class="highlight"><pre><code> ["/Users/john/.rubies/ruby/lib/ruby/gems/1.8/gems/timecop-0.3.4/bin",
+ "/Users/john/.rubies/ruby/lib/ruby/gems/1.8/gems/timecop-0.3.4/lib",</pre></code></div>
+     "/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8",
+     "/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0",
+     "/Users/john/.rubies/ruby/lib/ruby/site_ruby",
+     "/Users/john/.rubies/ruby/lib/ruby/1.8",
+     "/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0",
      "."]
     => nil
 

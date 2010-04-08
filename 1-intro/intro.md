@@ -20,4 +20,4 @@
 * The RubyGems environment
 * Proper gem structure
 * Release management
-* Community contributions
+* Community involvement

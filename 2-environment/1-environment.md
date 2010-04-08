@@ -6,11 +6,11 @@
 
     $ ~/playground $> irb -f
     $ irb(main):001:0> puts $:
-    /Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8
-    /Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8/i686-darwin9.8.0
-    /Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby
-    /Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8
-    /Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8/i686-darwin9.8.0
+    /Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8
+    /Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0
+    /Users/john/.rubies/ruby/lib/ruby/site_ruby
+    /Users/john/.rubies/ruby/lib/ruby/1.8
+    /Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0
     .
     => nil
 
@@ -18,17 +18,18 @@
 # The Ruby Load Path #
 
 <div class="smaller">
-  <pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8/i686-darwin9.8.0</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby</code></pre>
-  <div class="highlight"><pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8</code></pre></div>
-  <pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8/i686-darwin9.8.0</code></pre>
+  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8</code></pre>
+  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0</code></pre>
+  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby</code></pre>
+  <div class="highlight"><pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/1.8</code></pre></div>
+  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0</code></pre>
   <pre><code class="result">.</code></pre>
 </div>
 
 !SLIDE commandline incremental smaller
 # The Ruby Load Path #
-    $ ~/playground $> ls /Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8/
+    $ ~/playground $> ls /Users/john/.rubies/ruby/lib/ruby/1.8/
+    
     English.rb        erb.rb            mathn.rb          profiler.rb       sync.rb
     Env.rb            eregex.rb         matrix.rb         pstore.rb         tempfile.rb
     abbrev.rb         expect.rb         md5.rb            racc              test
@@ -56,17 +57,18 @@
 # The Ruby Load Path #
 
 <div class="smaller">
-  <div class="highlight"><pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8</code></pre></div>
-  <pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8/i686-darwin9.8.0</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8</code></pre>
-  <pre><code class="result">/Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/1.8/i686-darwin9.8.0</code></pre>
+  <div class="highlight"><pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8</code></pre></div>
+  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0</code></pre>
+  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/site_ruby</code></pre>
+  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/1.8</code></pre>
+  <pre><code class="result">/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0</code></pre>
   <pre><code class="result">.</code></pre>
 </div>
 
 !SLIDE commandline incremental smaller
 # The Ruby Load Path #
-    $ ~/playground $> ls /Users/john/.rubies/ruby-enterprise-1.8.6-20090610/lib/ruby/site_ruby/1.8
+    $ ~/playground $> ls /Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8
+    
     gauntlet_rubygems.rb rbconfig             rubygems.rb
     i686-darwin9.8.0     rubygems             ubygems.rb
 
