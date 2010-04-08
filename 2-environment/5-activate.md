@@ -64,23 +64,25 @@
      "/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0",
      "."]
     => nil
-    
-!SLIDE smaller commandline
+
+!SLIDE smaller
 # Gem activation and the load path
 
-    $ irb(main):004:0> require 'timecop'
-    => true
-    $ irb(main):005:0> pp $:
-<div class="highlight"><pre><code> ["/Users/john/.rubies/ruby/lib/ruby/gems/1.8/gems/timecop-0.3.4/bin",
- "/Users/john/.rubies/ruby/lib/ruby/gems/1.8/gems/timecop-0.3.4/lib",</pre></code></div>
-     "/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8",
-     "/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0",
-     "/Users/john/.rubies/ruby/lib/ruby/site_ruby",
-     "/Users/john/.rubies/ruby/lib/ruby/1.8",
-     "/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0",
-     "."]
-    => nil
-
+<div class="smaller">
+<pre><code>$ irb(main):004:0> require 'timecop'
+=&gt; true
+$ irb(main):005:0> pp $:
+<code class="highlight">["/Users/john/.rubies/ruby/lib/ruby/gems/1.8/gems/timecop-0.3.4/bin",
+ "/Users/john/.rubies/ruby/lib/ruby/gems/1.8/gems/timecop-0.3.4/lib",</code>
+ "/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8",
+ "/Users/john/.rubies/ruby/lib/ruby/site_ruby/1.8/i686-darwin9.8.0",
+ "/Users/john/.rubies/ruby/lib/ruby/site_ruby",
+ "/Users/john/.rubies/ruby/lib/ruby/1.8",
+ "/Users/john/.rubies/ruby/lib/ruby/1.8/i686-darwin9.8.0",
+ "."]
+=&gt; nil</code></code></pre>
+</div>
+  
 
 !SLIDE small
 # custom_require.rb #
