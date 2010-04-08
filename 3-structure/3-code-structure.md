@@ -23,7 +23,7 @@
 ## v0.3.4
 
     @@@ ruby
-    $ irb(main):001:0> new_constants { require 'timecop' }
+    $ irb> new_constants { require 'timecop' }
     => ["Singleton", "Timecop"]
     
 !SLIDE commandline incremental
@@ -31,6 +31,8 @@
 ## v0.2.0
 
     @@@ ruby
-    $ irb(main):001:0> new_constants { gem 'timecop', '= 0.2.0'; require 'timecop' }
+    $ irb> gem 'timecop', '= 0.2.0'
+    => true
+    $ irb> new_constants { require 'timecop' }
     => ["Singleton", "StackItem", "Timecop"]
 

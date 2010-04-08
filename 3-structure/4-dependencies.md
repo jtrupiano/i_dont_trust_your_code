@@ -12,7 +12,7 @@
 ## ~> 
 ### Great in theory, but not often in practice
 
-!SLIDE
+!SLIDE small
 # Distinguish Between Runtime and Development Dependencies
 
     @@@ ruby

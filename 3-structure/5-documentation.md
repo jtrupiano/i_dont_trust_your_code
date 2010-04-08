@@ -9,7 +9,7 @@
 
 * Get a documented public API for free
 * Use #:nodoc: to hide the private API
-* public/protected/private in code is just a matter of preference
+* protected/private in code is just a matter of preference
 
 !SLIDE
 # Poor RDoc
@@ -60,24 +60,26 @@
       end
     end
     
-!SLIDE
-# Gem::Specification#post_install_message
+!SLIDE smaller
+## Gem::Specification#post_install_message
 
-!SLIDE
-# Gem::Specification#post_install_message
-## Communicate to your users
+!SLIDE smaller
+## Gem::Specification#post_install_message
+### Communicate to your users
 
-!SLIDE commandline incremental
-# Gem::Specification#post_install_message
+!SLIDE smaller commandline incremental
+## Gem::Specification#post_install_message
 
     $ gem install rvm
     ********************************************************************************
 
       In order to setup rvm for your user's environment you must now run rvm-install.
-      rvm-install will be found in your current gems bin directory corresponding to where the gem was installed.
+      rvm-install will be found in your current gems bin directory corresponding to where the 
+      gem was installed.
 
-      rvm-install will install the scripts to your user account and append itself to your profiles in order to
-      inject the proper rvm functions into your shell so that you can manage multiple rubies.
+      rvm-install will install the scripts to your user account and append itself to your 
+      profiles in order to inject the proper rvm functions into your shell so that you can 
+      manage multiple rubies.
 
     ********************************************************************************
     Successfully installed rvm-0.1.26
