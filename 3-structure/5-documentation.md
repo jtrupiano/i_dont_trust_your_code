@@ -60,3 +60,26 @@
       end
     end
     
+!SLIDE
+# Gem::Specification#post_install_message
+
+!SLIDE
+# Gem::Specification#post_install_message
+## Communicate to your users
+
+!SLIDE commandline incremental
+# Gem::Specification#post_install_message
+
+    $ gem install rvm
+    ********************************************************************************
+
+      In order to setup rvm for your user's environment you must now run rvm-install.
+      rvm-install will be found in your current gems bin directory corresponding to where the gem was installed.
+
+      rvm-install will install the scripts to your user account and append itself to your profiles in order to
+      inject the proper rvm functions into your shell so that you can manage multiple rubies.
+
+    ********************************************************************************
+    Successfully installed rvm-0.1.26
+    1 gem installed
+    
