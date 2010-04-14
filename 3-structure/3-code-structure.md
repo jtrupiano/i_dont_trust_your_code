@@ -10,7 +10,8 @@
 # Don't pollute the global namespace
 
     @@@ ruby
-    # Shows you which top-level constants have been added
+    # Shows you which top-level constants have 
+    # been added
     # Usage: new_constants { require 'timecop' }
     def new_constants(&block)
       constants = Object.constants
