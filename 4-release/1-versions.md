@@ -19,15 +19,16 @@
 # 1.2.3.a
 ## major.minor.patch.build
 
-!SLIDE
-# Major/Minor are kind of arbitrary for most RubyGem libraries
-## More important for major projects like rails
+!SLIDE bullets incremental
+# 1.0 means stable
+* It's an indication to the community that you deem the library ready for public use.
+* It defines an API that won't break without a good reason (and another major version bump)
 
 !SLIDE bullets incremental
-# Major version bumps 
-* Break backwards-compatibility
-* Often include rewrite of large parts of the code
+# Patch version bumps
+* Introduce deprecation warnings
 * Introduce new functionality
+* Fix bugs or other documentation
 
 !SLIDE bullets incremental
 # Minor version bumps 
@@ -36,10 +37,10 @@
 * Introduce new functionality
 
 !SLIDE bullets incremental
-# Patch version bumps
-* Introduce deprecation warnings
+# Major version bumps 
+* Break backwards-compatibility
+* Often include rewrite of large parts of the code
 * Introduce new functionality
-* Fix bugs or other documentation
 
 !SLIDE
 # Prereleases
