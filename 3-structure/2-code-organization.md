@@ -1,8 +1,9 @@
 !SLIDE
 # Code Organization #
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Directory "Namespacing"
+## The lib/ folder
 * A single file named the *exact same thing* as your gem
 * A single directory named the *exact same thing* as your gem (if necessary)
 
@@ -52,6 +53,19 @@
     gem2/
       lib/
         gem2.rb
+
+!SLIDE
+# Directory "Namespacing"
+## Two gems, gem1 and gem2.
+
+    gem1/
+      lib/
+        gem1.rb
+<div class="highlight"><pre><code class="result">    gem2.rb</code></pre></div>
+<pre><code> </code></pre>    
+    gem2/
+      lib/
+<div class="highlight"><pre><code class="result">    gem2.rb</code></pre></div>
 
 !SLIDE commandline incremental
 # Directory "Namespacing"
