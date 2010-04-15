@@ -37,4 +37,5 @@
     $ irb> new_constants { require 'timecop' }
     => ["Singleton", "StackItem", "Timecop"]
 
+!SLIDE
 # Leave the load path alone
